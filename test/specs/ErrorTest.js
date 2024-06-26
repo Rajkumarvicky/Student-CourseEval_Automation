@@ -10,8 +10,8 @@ describe("Smoke test", async function () {
     it('Login Function', async () => {
 
 
-        await $("//input[@name='username']").setValue("integration_dev")
-        await $("//input[@name='pword']").setValue("CH@ng3M3!")
+        await $("//input[@name='username']").setValue("$username")
+        await $("//input[@name='pword']").setValue("$password")
         await browser.pause(4000);
         const myButton = await $("//button[@type='submit']")
         await myButton.click();
