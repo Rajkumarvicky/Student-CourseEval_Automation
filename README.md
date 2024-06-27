@@ -1,4 +1,4 @@
-# CourseEval-Automation
+# Student-CourseEval_Automation
 
 ## Description
 Automation for course eval document history screen
